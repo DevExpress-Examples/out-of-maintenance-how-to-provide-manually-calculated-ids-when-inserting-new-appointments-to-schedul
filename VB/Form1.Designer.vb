@@ -31,11 +31,11 @@ Namespace SchedulerAptIdGeneration
 			Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
 			Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
 			Me.carSchedulingBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.carsDBDataSet = New SchedulerAptIdGeneration.CarsDBDataSet()
-			Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.carSchedulingTableAdapter = New SchedulerAptIdGeneration.CarsDBDataSetTableAdapters.CarSchedulingTableAdapter()
-			Me.carsTableAdapter = New SchedulerAptIdGeneration.CarsDBDataSetTableAdapters.CarsTableAdapter()
-			Me.dataGridView1 = New System.Windows.Forms.DataGridView()
+            Me.carsDBDataSet = New CarsDBDataSet()
+            Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.carSchedulingTableAdapter = New CarsDBDataSetTableAdapters.CarSchedulingTableAdapter()
+            Me.carsTableAdapter = New CarsDBDataSetTableAdapters.CarsTableAdapter()
+            Me.dataGridView1 = New System.Windows.Forms.DataGridView()
 			Me.iDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
 			Me.subjectDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
 			Me.startTimeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -199,10 +199,10 @@ Namespace SchedulerAptIdGeneration
 		Private carsDBDataSet As CarsDBDataSet
 		Private WithEvents schedulerStorage1 As DevExpress.XtraScheduler.SchedulerStorage
 		Private carSchedulingBindingSource As System.Windows.Forms.BindingSource
-		Private carSchedulingTableAdapter As SchedulerAptIdGeneration.CarsDBDataSetTableAdapters.CarSchedulingTableAdapter
-		Private carsBindingSource As System.Windows.Forms.BindingSource
-		Private carsTableAdapter As SchedulerAptIdGeneration.CarsDBDataSetTableAdapters.CarsTableAdapter
-		Private dataGridView1 As System.Windows.Forms.DataGridView
+        Private carSchedulingTableAdapter As CarsDBDataSetTableAdapters.CarSchedulingTableAdapter
+        Private carsBindingSource As System.Windows.Forms.BindingSource
+        Private carsTableAdapter As CarsDBDataSetTableAdapters.CarsTableAdapter
+        Private dataGridView1 As System.Windows.Forms.DataGridView
 		Private iDDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
 		Private subjectDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
 		Private startTimeDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
